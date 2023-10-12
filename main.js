@@ -50,10 +50,10 @@ function clic(){
 
     if(one == two && two == three && one ==three){
         money -= input.value;
-        money += input.value * 10;
+        money += input.value * 8;
     }else if(one == two || two == three || one == three){
         money -= input.value;
-        money += input.value * 5;
+        money += input.value * 3;
     }else{
         money -= input.value;
     }
