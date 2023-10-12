@@ -1,0 +1,145 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#box1{
+    width: 175px;
+    height: 250px;
+    margin: 2px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2{
+    width: 175px;
+    height: 250px;
+    margin: 2px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#box3{
+    width: 175px;
+    height: 250px;
+    margin: 2px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxBorder{
+    border: 1px solid black;
+}
+button{
+    border: none;
+    background-color: rgb(169, 169, 0);
+    width: 125px;
+    height: 100px; 
+}
+.d{
+    display: flex;
+    flex-direction: row;
+}
+#moneyVal{
+    font-size: 20px;
+}
+.dolla{
+    font-size: 20px;
+}
+.onemill{
+    animation-name: onemill;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.onebill{
+    animation-name: onebill;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.onetrill{
+    animation-name: onetrill;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.border{
+    border: 2px solid goldenrod;
+}
+@keyframes onemill {
+    0%{
+        color: blue;
+    }
+    25%{
+        color: darkblue;
+    }
+    50%{
+        color: royalblue;
+    }
+    75%{
+        color: lightblue;
+    }
+    80%{
+        color: lightskyblue;
+    }
+    90%{
+        color: royalblue;
+    }
+    100%{
+        color: blue;
+    }
+}
+@keyframes onebill {
+    0%{
+        color: red;
+    }
+    25%{
+        color: darkred;
+    }
+    50%{
+        color: tomato;
+    }
+    75%{
+        color: crimson;
+    }
+    80%{
+        color: red;
+    }
+    90%{
+        color: pink;
+    }
+    100%{
+        color: red;
+    }
+}
+@keyframes onetrill {
+    0%{
+        color: red;
+    }
+    25%{
+        color: orange;
+    }
+    40%{
+        color: lightgreen;
+    }
+    55%{
+        color: green;
+    }
+    75%{
+        color: blue;
+    }
+    100%{
+        color: purple;
+    }
+}
