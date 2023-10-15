@@ -42,10 +42,12 @@ function gamble2(){
     output.innerHTML = outputVal;
     if(outputVal == input2Val){
         money = money * 2;
+        money = Math.round(money);
         moneyVal.innerHTML = money;
     }
     if(outputVal != input2Val){
         money = money / 2;
+        money = Math.round(money);
         moneyVal.innerHTML = money;
     }
 }
