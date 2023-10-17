@@ -9,4 +9,4 @@ Type a value and click the gamble button to gamble the money.
 
 Gamble 2 rules:
 
-Type a value from 0-9 and if you get the same nu,ber as a randomly generated one, you get x2 money. If you lose, you lose half your money.
+Type a value from 0-9 and if you get the same number as a randomly generated one, you get x2 money. If you lose, you lose half your money.
